@@ -1,0 +1,48 @@
+.calculateBtn {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 171%;
+	color: #ea0029;
+	display: inline-block;
+	padding: 0;
+
+	margin-bottom: 24px;
+}
+
+.input {
+	width: 100%;
+}
+
+.NumberMonthsVariants {
+	& > div {
+		margin-bottom: 1rem;
+	}
+	@media (min-width: 768px) {
+		& > div {
+			margin-right: 38px;
+			display: inline-block;
+		}
+	}
+
+	.btnGroup {
+		display: inline-flex;
+		gap: 8px;
+		align-items: center;
+	}
+}
+
+.resultTitle {
+	margin-bottom: 1rem;
+}
+
+.durationBtn {
+	margin-right: 6px;
+	margin-bottom: 24px;
+}
+
+.result {
+	font-size: 20px;
+	line-height: 120%;
+	color: var(--dark);
+	margin-bottom: 38px;
+}
